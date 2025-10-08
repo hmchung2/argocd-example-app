@@ -1,5 +1,6 @@
 from http.server import SimpleHTTPRequestHandler, HTTPServer
 import os
+print("good")
 PORT = int(os.getenv("PORT", "8080"))
 class H(SimpleHTTPRequestHandler):
     def do_GET(self):
